@@ -1,0 +1,80 @@
+@import url(./reset.css);
+@import url(./normalize.css);
+
+/* 기본 스타일 */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* 본문 스타일 */
+body {
+  background-color: #fff;
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;;
+
+}
+
+/* 레이아웃 */
+.nav, .main, .footer {
+  margin: 0 auto;
+}
+
+/* 앵커 스타일 */
+a {
+  text-decoration: none;
+}
+
+/* 네비게이션 스타일 */
+.fa-solid {
+  position: relative;
+  left: 40px;
+  font-size: 1.5em;
+}
+
+.nav {
+  color: rgb(47,47,47);
+  margin-top: 20px;
+  height: 47px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav_main {
+  /* background-color: blue; */
+  width: 728px;
+  font-size: 1.2rem;
+  display: flex;
+  padding-left: 40px;
+}
+
+.nav_main li {
+  padding: 0 12px;
+  font-weight: bold;
+}
+
+.nav_sub {
+  width: 728px;
+  font-size: 1.2rem;
+  display: flex;
+  padding-left: 345px;
+}
+
+.nav_sub li {
+  padding: 0 12px;
+  font-weight: bold;
+}
+
+.sub_live {
+  color: blueviolet;
+}
+
+/* 메인 스타일 */
+.main {
+  background-color: powderblue;
+  height: 60vh;
+}
+
+/* 푸터 스타일 */
+.footer {
+  background-color: lightyellow;
+  height: 20vh;
+}
