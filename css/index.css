@@ -68,9 +68,6 @@ a {
 }
 
 /* 메인 스타일 */
-.main {
-  /* background-color: powderblue; */
-}
 
 .mainnav_list {
   display: flex;
@@ -102,7 +99,7 @@ a {
 }
 
 .section1 {
-  margin-top: 70px;
+  margin: 70px 0;
 }
 
 .article2 {
@@ -142,5 +139,23 @@ a {
 /* 푸터 스타일 */
 .footer {
   background-color: lightyellow;
-  /* height: 20vh; */
+  border-top: 1px solid gray;
+  padding: 0 128px;
+}
+
+.footer_article1 .text {
+  margin: 0;
+}
+
+.footer_section {
+  background-color: pink;
+  width: 100%;
+  overflow: hidden;
+}
+
+.footer_header {
+  background-color: #ff764d;
+  font-size: 4rem;
+  position: relative;
+  left: 80px;
 }
