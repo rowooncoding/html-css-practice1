@@ -69,12 +69,50 @@ a {
 
 /* 메인 스타일 */
 .main {
-  background-color: powderblue;
-  height: 60vh;
+  /* background-color: powderblue; */
+}
+
+.mainnav_list {
+  display: flex;
+
+}
+
+.mainnav_list li {
+  padding: 22px 40px;
+}
+
+.mainnav_list li:first-child {
+  color: #ff764d;
+}
+
+.maincontent {
+  display: flex;
+  justify-content: center;
+}
+
+.article1 {
+  text-align: center;
+  line-height: 35px;
+  width: 751px;
+  height: 112px;
+  margin: 0 auto;
+  font-size: 28px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+.article2 {
+  text-align: center;
+  line-height: 20px;
+  width: 771px;
+  height: 60px;
+  margin: 20px auto;
+  font-size: 17px;
+  padding-top: 20px;
 }
 
 /* 푸터 스타일 */
 .footer {
   background-color: lightyellow;
-  height: 20vh;
+  /* height: 20vh; */
 }
