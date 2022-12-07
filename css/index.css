@@ -101,6 +101,10 @@ a {
   padding-top: 10px;
 }
 
+.section1 {
+  margin-top: 70px;
+}
+
 .article2 {
   text-align: center;
   line-height: 20px;
@@ -110,6 +114,30 @@ a {
   font-size: 17px;
   padding-top: 20px;
 }
+
+.article1-1 {
+  background-color: #faffa9;
+  width: 895px;
+  height: 891px;
+  margin-left: auto;
+}
+
+.article1-2 {
+  background-color: #ff2;
+  float: right;
+  position: relative;
+  right: 99px;
+  bottom: 619px;
+}
+
+.article1-3 {
+  background-color: #eff;
+  float: left;
+  position: relative;
+  bottom: 757px;
+  left: 124px;
+}
+
 
 /* 푸터 스타일 */
 .footer {
